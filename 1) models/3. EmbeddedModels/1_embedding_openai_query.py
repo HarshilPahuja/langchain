@@ -27,3 +27,6 @@ print(str(result))
 # Less storage + faster vector operations
 #       ↓
 # Potentially some loss in retrieval quality
+
+
+# how to choose dimensions -> https://chatgpt.com/share/6acdb0de-7c30-83ee-b399-99899b950ad1
