@@ -51,3 +51,39 @@ print(result)
 
 #here  error if not the designed structured output doesnt happen (not always, sometimes can)
 # so basically sometimes it happens sometimes it doesnt not sure. depends on method we using and model and langchain version
+
+
+# # the json schema format followed is :
+# json_schema = {
+#     # 1. Metadata (Helps the model understand the target entity)
+#     "title": "StudentProfile",
+#     "description": "Information about a university student.",
+    
+#     # 2. Main Type (Must almost always be "object" at the root level)
+#     "type": "object",
+    
+#     # 3. Properties (This defines your fields/columns)
+#     "properties": {
+#         "full_name": {
+#             "type": "string",
+#             "description": "The student's first and last name"
+#         },
+#         "age": {
+#             "type": "integer",
+#             "description": "Age in years"
+#         },
+#         "gpa": {
+#             "type": "number",
+#             "description": "Grade Point Average from 0.0 to 4.0"
+#         },
+#         "is_enrolled": {
+#             "type": "boolean",
+#             "description": "True if actively taking classes"
+#         }
+#     },
+    
+#     # 4. Validation (List keys that the LLM MUST provide)
+#     "required": ["full_name", "age"]
+# }
+
+# JSON Schema draft-07 standard.
