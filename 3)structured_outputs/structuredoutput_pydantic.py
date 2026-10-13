@@ -111,7 +111,7 @@ print(student.name) #can convert this pydantic obj into json,dict etc.
 
 
 
-# calling model using pydict.
+# calling model using pydantic.
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from typing import TypedDict, Annotated, Optional, Literal

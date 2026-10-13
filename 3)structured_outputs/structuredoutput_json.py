@@ -1,7 +1,5 @@
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
-from typing import TypedDict, Annotated, Optional, Literal
-from pydantic import BaseModel, Field
 
 load_dotenv()
 
@@ -49,3 +47,7 @@ Review by Nitish Singh
 """)
 
 print(result)
+
+
+#here  error if not the designed structured output doesnt happen (not always, sometimes can)
+# so basically sometimes it happens sometimes it doesnt not sure. depends on method we using and model and langchain version

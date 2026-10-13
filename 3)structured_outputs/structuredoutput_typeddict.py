@@ -14,7 +14,7 @@ class Person(TypedDict):
     name: str
     age: int
 
-new_person: Person = {'name':'nitish', 'age':35} #not a python class that u can tell it like new_person=Person({}),
+new_person: Person = {'name':'harshil', 'age':35} #not a python class that u can tell it like new_person=Person({}),
                                                  #we are telling it that it should accept the structure Person. unlike in pydantic
 
 print(new_person)
