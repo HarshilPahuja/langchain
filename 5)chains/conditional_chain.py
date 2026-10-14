@@ -50,7 +50,7 @@ branch_chain = RunnableBranch(  #inside this we pass tuples, each tuple (conditi
     RunnableLambda(lambda x: "could not find sentiment")  #returns could not find sentiment
     #we simply returning that, and input is x. 
     #kuch processing nhi hai, need to make it a chain. so need to make it a runnable
-    #runnablelambda- converts a lambda to runnable. once its runnable can use it in chain.
+    #runnablelambda- converts a function to runnable. once its runnable can use it in chain.
     #https://chatgpt.com/share/6abe3a95-2a10-83ee-9e5c-1667f54d0e99 
 )
 
